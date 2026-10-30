@@ -1,0 +1,61 @@
+.exam-container {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exam-card-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.exam-radio-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  background: var(--bg-color);
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.exam-radio-item input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.exam-result-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.exam-score-badge {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.exam-note-box {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 14px;
+  border-radius: 14px;
+  font-size: .95rem;
+  line-height: 1.6;
+  width: 100%;
+  text-align: right;
+}

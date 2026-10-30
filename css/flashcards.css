@@ -1,0 +1,346 @@
+#flashcardPage {
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.flashcard-top-controls {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.fc-top-btn,
+.select-filter-dropdown {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-main);
+  font-size: .82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fc-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+}
+
+.fc-top-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.fc-top-btn.active-mode {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.select-filter-dropdown {
+  outline: none;
+}
+
+.flashcard-wrapper,
+.review-wrapper {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-scene {
+  width: 100%;
+  height: 280px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .5s ease;
+}
+
+.card-inner.flipped { transform: rotateY(180deg); }
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #fff;
+  border: none;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word-status-badge {
+  font-size: .78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status-easy { background: var(--easy-bg); color: var(--easy-tag); }
+.status-hard { background: var(--hard-bg); color: var(--hard-tag); }
+
+.like-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.like-btn.liked svg {
+  fill: var(--like-color);
+  stroke: var(--like-color);
+}
+
+.card-body-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: auto 0;
+}
+
+.word-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.phonetics-text {
+  font-size: .95rem;
+  color: var(--text-muted);
+  font-family: monospace;
+  direction: ltr;
+}
+
+.audio-speech-btn {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--primary);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.audio-speech-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.card-body-back {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: auto 0;
+}
+
+.word-counter-badge {
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 110px;
+  box-sizing: border-box;
+
+  font-size: .8rem;
+  font-weight: 600;
+  white-space: nowrap;
+
+  color: var(--text-muted);
+  background: var(--card-bg);
+
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.controls-bar {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  justify-content: center;
+}
+
+.review-wrapper {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-md);
+  gap: 16px;
+}
+
+.review-question {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.review-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.review-option-btn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-color);
+  color: var(--text-main);
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-option-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.review-option-btn.correct {
+  background: var(--easy-bg);
+  border-color: var(--easy-tag);
+  color: var(--easy-tag);
+}
+
+.review-option-btn.wrong {
+  background: var(--hard-bg);
+  border-color: var(--hard-tag);
+  color: var(--hard-tag);
+}
+
+/* =========================================================
+   WORD FILTER TABS
+========================================================= */
+
+.word-filter-tabs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+
+  padding: 5px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+
+  background: var(--card-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+.word-filter-tab {
+  border: 0;
+  border-radius: 11px;
+
+  padding: 9px 6px;
+
+  background: transparent;
+  color: var(--text-muted);
+
+  font-family: inherit;
+  font-size: .78rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background .18s ease,
+    color .18s ease,
+    transform .18s ease;
+}
+
+.word-filter-tab:hover {
+  color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.word-filter-tab.active {
+  background: var(--primary);
+  color: white;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.word-filter-tab:active {
+  transform: scale(.97);
+}
+
+
+/* Compact top controls */
+.flashcard-top-controls > .fc-top-btn {
+  padding: 5px 10px;
+  min-height: 32px;
+}
+
+/* Compact filter tabs */
+.flashcard-top-controls > .word-filter-tabs {
+  padding: 4px;
+}
+
+.flashcard-top-controls > .word-filter-tabs .word-filter-tab {
+  padding: 5px 4px;
+  min-height: 28px;
+}
+
+.word-counter-badge {
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}

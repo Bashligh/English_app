@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "title": "اصول پایه تغذیه",
+  "readingSections": [
+    {
+      "title": "Part A",
+      "audio": "audio/lesson-001/7D2.mp3",
+      "english": "Nutrition is essential for maintaining growth and health in human life.",
+      "persian": "تغذیه برای حفظ رشد و سلامت در زندگی انسان ضروری است."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Nutrition",
+      "pronunciation": "/nuːˈtrɪʃ.ən/",
+      "meaning": "تغذیه",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Essential",
+      "pronunciation": "/ɪˈsen.ʃəl/",
+      "meaning": "ضروری / حیاتی",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Maintain",
+      "pronunciation": "/meɪnˈteɪn/",
+      "meaning": "حفظ کردن",
+      "difficulty": "hard"
+    }
+  ]
+}

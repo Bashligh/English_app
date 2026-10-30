@@ -1,0 +1,26 @@
+{
+  "id": 6,
+  "title": "هوش مصنوعی",
+  "readingSections": [
+    {
+      "title": "Part A",
+      "audio": "https://raw.githubusercontent.com/Bashligh/English-p1/main/A.m4a",
+      "english": "This is placeholder reading content for هوش مصنوعی.",
+      "persian": "این یک متن نمونه برای درس «هوش مصنوعی» است."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Sample",
+      "pronunciation": "/ˈsæm.pəl/",
+      "meaning": "نمونه",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Practice",
+      "pronunciation": "/ˈpræk.tɪs/",
+      "meaning": "تمرین",
+      "difficulty": "hard"
+    }
+  ]
+}

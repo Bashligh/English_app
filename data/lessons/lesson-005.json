@@ -1,0 +1,80 @@
+{
+  "id": 5,
+  "title": "Child and Adolescent Health and Development",
+  "readingSections": [
+    {
+      "title": "Part A",
+      "audio": "audio/lesson-005/6.A2.mp3",
+      "english": "The future of human societies depends on children being able to achieve their optimal physical growth and psychological development. Never before has there been so much knowledge to assist families and societies in their desire to raise children to meet their potential.",
+      "persian": "آینده جوامع بشری به این بستگی دارد که کودکان بتوانند به رشد جسمی و رشد روانی مطلوب خود دست یابند. قبلاً هرگز دانش زیادی برای کمک به خانواده‌ها و جوامع در تمایل آنها برای تربیت فرزندان به‌منظور برآورده کردن پتانسیل آنها وجود نداشته است."
+    },
+    {
+      "title": "Part B",
+      "audio": "https://raw.githubusercontent.com/Bashligh/English-p1/main/B.m4a",
+      "english": "In the past several decades, the relationships among health, physical growth, psychological development and parental caregiving have become clearer. Combined growth and development interventions that help families practice responsive parenting have the potential to promote better psychological development, as well as physical growth.",
+      "persian": "در چند دهه گذشته، روابط بین سلامت، رشد جسمانی، رشد روانی و مراقبت والدین واضح‌تر شده است. مداخلات ترکیبی رشد و توسعه که به خانواده‌ها کمک می‌کند فرزندپروری پاسخ‌گو را تمرین کنند، پتانسیل ارتقای رشد روانی بهتر و همچنین رشد فیزیکی را دارند."
+    },
+    {
+      "title": "Part C",
+      "audio": "https://raw.githubusercontent.com/Bashligh/English-p1/main/C.m4a",
+      "english": "Development can refer to maturity in terms of physical, cognitive, language, social, emotional, temperament, or fine and gross motor skills development.",
+      "persian": "رشد می‌تواند به بلوغ از نظر رشد فیزیکی، شناختی، زبانی، اجتماعی، عاطفی، خلقی یا مهارت‌های حرکتی ظریف و درشت اشاره داشته باشد."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Future",
+      "pronunciation": "/ˈfjuː.tʃər/",
+      "meaning": "آینده",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Optimal",
+      "pronunciation": "/ˈɑːp.tɪ.məl/",
+      "meaning": "بهینه / بهترین",
+      "difficulty": "hard"
+    },
+    {
+      "word": "Decade",
+      "pronunciation": "/ˈdek.eɪd/",
+      "meaning": "دهه",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Relationship",
+      "pronunciation": "/rɪˈleɪ.ʃən.ʃɪp/",
+      "meaning": "رابطه",
+      "difficulty": "easy"
+    },
+    {
+      "word": "Parental",
+      "pronunciation": "/pəˈren.təl/",
+      "meaning": "والدینی",
+      "difficulty": "hard"
+    },
+    {
+      "word": "Intervention",
+      "pronunciation": "/ˌɪn.tɚˈven.ʃən/",
+      "meaning": "مداخله",
+      "difficulty": "hard"
+    },
+    {
+      "word": "Responsive",
+      "pronunciation": "/rɪˈspɑːn.sɪv/",
+      "meaning": "پاسخگو / واکنش‌دهنده",
+      "difficulty": "hard"
+    },
+    {
+      "word": "Maturity",
+      "pronunciation": "/məˈtʃʊr.ə.t̬i/",
+      "meaning": "بلوغ / پختگی",
+      "difficulty": "hard"
+    },
+    {
+      "word": "Cognitive",
+      "pronunciation": "/ˈkɑːɡ.nə.t̬ɪv/",
+      "meaning": "شناختی",
+      "difficulty": "hard"
+    }
+  ]
+}

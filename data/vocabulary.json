@@ -1,0 +1,74 @@
+{
+  "nutrition": {
+    "word": "Nutrition",
+    "pronunciation": "/nuːˈtrɪʃ.ən/",
+    "meaning": "تغذیه",
+    "difficulty": "easy"
+  },
+  "essential": {
+    "word": "Essential",
+    "pronunciation": "/ɪˈsen.ʃəl/",
+    "meaning": "ضروری / حیاتی",
+    "difficulty": "easy"
+  },
+  "maintain": {
+    "word": "Maintain",
+    "pronunciation": "/meɪnˈteɪn/",
+    "meaning": "حفظ کردن",
+    "difficulty": "hard"
+  },
+  "future": {
+    "word": "Future",
+    "pronunciation": "/ˈfjuː.tʃər/",
+    "meaning": "آینده",
+    "difficulty": "easy"
+  },
+  "optimal": {
+    "word": "Optimal",
+    "pronunciation": "/ˈɑːp.tɪ.məl/",
+    "meaning": "بهینه / بهترین",
+    "difficulty": "hard"
+  },
+  "decade": {
+    "word": "Decade",
+    "pronunciation": "/ˈdek.eɪd/",
+    "meaning": "دهه",
+    "difficulty": "easy"
+  },
+  "relationship": {
+    "word": "Relationship",
+    "pronunciation": "/rɪˈleɪ.ʃən.ʃɪp/",
+    "meaning": "رابطه",
+    "difficulty": "easy"
+  },
+  "parental": {
+    "word": "Parental",
+    "pronunciation": "/pəˈren.təl/",
+    "meaning": "والدینی",
+    "difficulty": "hard"
+  },
+  "intervention": {
+    "word": "Intervention",
+    "pronunciation": "/ˌɪn.tɚˈven.ʃən/",
+    "meaning": "مداخله",
+    "difficulty": "hard"
+  },
+  "responsive": {
+    "word": "Responsive",
+    "pronunciation": "/rɪˈspɑːn.sɪv/",
+    "meaning": "پاسخگو / واکنش‌دهنده",
+    "difficulty": "hard"
+  },
+  "maturity": {
+    "word": "Maturity",
+    "pronunciation": "/məˈtʃʊr.ə.t̬i/",
+    "meaning": "بلوغ / پختگی",
+    "difficulty": "hard"
+  },
+  "cognitive": {
+    "word": "Cognitive",
+    "pronunciation": "/ˈkɑːɡ.nə.t̬ɪv/",
+    "meaning": "شناختی",
+    "difficulty": "hard"
+  }
+}
